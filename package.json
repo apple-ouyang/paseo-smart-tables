@@ -1,0 +1,16 @@
+{
+  "name": "paseo-smart-tables",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test client/*.test.ts"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "^0.16.0",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.3"
+  }
+}
